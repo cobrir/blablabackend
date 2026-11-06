@@ -20,7 +20,7 @@ class GameInfo:
         self.ApiKey = os.getenv("META_API_KEY", "OC|1454907504368969|b65dca877a0a1237ef69ce39a81bfcd2")
         self.DiscordWebhookUrl = os.getenv(
             "DISCORD_WEBHOOK_URL",
-            "https://discord.com/api/webhooks/1548733420689956906/B8N58QUHZyZKOnZSt67UC79w4aNbkQHIjDcdru8E4ePIGtA6hd0QohS"
+            "https://discord.com/api/webhooks/1557801323230007359/_DopiWd2HRGzbKK1Jb_0ihdG-axQYalwJGUlnZlf-SlGA8y3lyC73p383jT2FQWpul_5"
         )
 
         # Website
@@ -170,7 +170,7 @@ def home():
         </p>
 
         <p class="author">
-            MADE BY 2XGHOSTYJR
+            MADE BY VITIN
         </p>
 
     </div>
@@ -189,7 +189,7 @@ def status():
     return jsonify({
         "status": "BACKEND IS RUNNING",
         "online": True,
-        "author": "2XGHOSTYJR",
+        "author": "VITIN",
         "titleId": settings.TitleId,
         "website": settings.WebsiteUrl
     }), 200
@@ -803,7 +803,7 @@ def titledata():
                     "<color=red>OWNER</color>",
 
                 "Entries": [
-                    "2XGHOSTYJR"
+                    "VITIN"
                 ]
             },
 
@@ -812,7 +812,7 @@ def titledata():
                     "<color=yellow>CREDITS</color>",
 
                 "Entries": [
-                    "2XGHOSTYJR"
+                    "VITIN"
                 ]
             }
 
@@ -855,33 +855,33 @@ def titledata():
             "2024.09.20",
 
         "MOTD":
-            "<color=red>[ WELCOME TO METRO SWINGERS! ]</color>\n"
+            "<color=red>[ WELCOME TO VITIN TAGGERS! ]</color>\n"
 "<color=red>WELCOME TUFF GAME!</color>\n"
 "<color=blue>https://blablabackend.vercel.app/</color>\n"
 "<color=yellow>JOIN OUR DISCORD!</color>\n"
-"<color=purple>GG/METROSWINGERS</color>\n"
-"<color=blue>HYPPER AND 2XGHOSTYJR ARE THE OWNERS</color>\n"
+"<color=purple>GG/PW23Hm8Hj</color>\n"
+"<color=blue>VITIN IS THE OWNER</color>\n"
 "<color=orange>IM NOT A SKID SO IM USING MY OWN BACKEND</color>",
 
         "SeasonalStoreBoardSign":
             "<color=yellow>"
-            "METRO SWINGERS"
+            "VITIN TAGGERS"
             "</color>",
 
         "TOS_2024.09.20":
             "https://blablabackend.vercel.app/",
 
         "TOBAlreadyOwnCompTxt":
-            "METRO SWINGERS",
+            "VITIN TAGGERS",
 
         "TOBAlreadyOwnPurchaseBundle":
-            "METRO SWINGERS",
+            "VITIN TAGGERS",
 
         "TOBDefCompTxt":
-            "METRO SWINGERS",
+            "VITIN TAGGERS",
 
         "TOBDefPurchaseBtnDefTxt":
-            "METRO SWINGERS",
+            "VITIN TAGGERS",
 
         "UseLegacyIAP":
             False
@@ -1325,7 +1325,7 @@ if __name__ == "__main__":
     )
 
     print(
-        "       METRO SWINGERS BACKEND"
+        "       VITIN TAGGERS BACKEND"
     )
 
     print(
@@ -1337,7 +1337,7 @@ if __name__ == "__main__":
     )
 
     print(
-        "MADE BY: 2XGHOSTYJR"
+        "MADE BY: VITIN"
     )
 
     print(
