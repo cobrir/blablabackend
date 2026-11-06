@@ -87,7 +87,7 @@ def home():
         content="width=device-width, initial-scale=1.0"
     >
 
-    <title>Metro Swingers Backend</title>
+    <title>Vitin Taggers Backend</title>
 
     <style>
         * {
